@@ -5,7 +5,7 @@ Based on:
 This code uses the generalized eigendecomposition to enhance the contrast-to-noise ratio between fingerprints for two tissue types. 
 This method effectively rotates the SVD subspace, creating a contrast-optimized basis that enhances contrast in the first and last coefficient images.
 
-This code is implemented in Julia v1.10.
+This code is implemented in Julia v1.11.3.
 
 Steps:
 1. Generate sets of fingerprints for parenchyma and CSF using sim.jl
